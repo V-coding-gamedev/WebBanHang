@@ -74,10 +74,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getLoaiSanPham() {
-//        compositeDisposable.add(apiBanHang.getLoaiSp().subScribeOn(Schedulers.io())
-//
-//
-//        )
 
         compositeDisposable.add(apiBanHang.getLoaiSp()
                 .subscribeOn(Schedulers.io())
